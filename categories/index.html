@@ -261,10 +261,14 @@
             <div class="category-all-title">
               
               
-              No categories
+                
+                  
+                
+              
+              1 category in total
             </div>
             <div class="category-all">
-              
+              <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/Blog/">Blog</a><span class="category-list-count">1</span></li></ul>
             </div>
           </div>
         
@@ -330,6 +334,23 @@
         
           <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">categories</span>
         </a>
       </div>
     
@@ -452,6 +473,17 @@
     <script src="/js/post-details.js?v=7.3.0"></script>
 
   
+
+<script>
+  function loadCount() {
+    var d = document, s = d.createElement('script');
+    s.src = 'https://hann726.disqus.com/count.js';
+    s.id = 'dsq-count-scr';
+    (d.head || d.body).appendChild(s);
+  }
+  // defer loading until the whole page loading is completed
+  window.addEventListener('load', loadCount, false);
+</script>
 
 </body>
 </html>
