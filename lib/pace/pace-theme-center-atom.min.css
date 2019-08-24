@@ -12,8 +12,8 @@
 
   z-index: 2000;
   position: fixed;
-  height: 60px;
-  width: 100px;
+  height: 120px;
+  width: 200px;
   margin: auto;
   top: 0;
   left: 0;
@@ -24,8 +24,10 @@
 .pace .pace-progress {
   z-index: 2000;
   position: absolute;
-  height: 60px;
-  width: 100px;
+  height: 120px;
+  width: 200px;
+  left: 26px; 
+  top: 10px; 
 
   -webkit-transform: translate3d(0, 0, 0) !important;
   -ms-transform: translate3d(0, 0, 0) !important;
@@ -36,7 +38,7 @@
   content: attr(data-progress-text);
   text-align: center;
   color: #fff;
-  background: #29d;
+  background: #000;
   border-radius: 50%;
   font-family: "Helvetica Neue", sans-serif;
   font-size: 14px;
@@ -56,8 +58,8 @@
   line-height: 1;
   z-index: 2000;
   position: absolute;
-  height: 60px;
-  width: 100px;
+  height: 120px;
+  width: 200px;
 
   display: block;
   -webkit-animation: pace-theme-center-atom-spin 2s linear infinite;
@@ -68,26 +70,26 @@
 
 .pace .pace-activity {
   border-radius: 50%;
-  border: 5px solid #000;
+  border: 7px solid #000;
   content: ' ';
   display: block;
   position: absolute;
   top: 0;
   left: 0;
-  height: 60px;
-  width: 100px;
+  height: 120px;
+  width: 200px;
 }
 
 .pace .pace-activity:after {
   border-radius: 50%;
-  border: 5px solid #000;
+  border: 7px solid #000;
   content: ' ';
   display: block;
   position: absolute;
   top: -5px;
   left: -5px;
-  height: 60px;
-  width: 100px;
+  height: 120px;
+  width: 200px;
 
   -webkit-transform: rotate(60deg);
   -moz-transform: rotate(60deg);
@@ -97,14 +99,14 @@
 
 .pace .pace-activity:before {
   border-radius: 50%;
-  border: 5px solid #000;
+  border: 7px solid #000;
   content: ' ';
   display: block;
   position: absolute;
   top: -5px;
   left: -5px;
-  height: 60px;
-  width: 100px;
+  height: 120px;
+  width: 200px;
 
   -webkit-transform: rotate(120deg);
   -moz-transform: rotate(120deg);
