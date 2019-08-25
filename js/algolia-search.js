@@ -4,7 +4,7 @@ window.addEventListener('DOMContentLoaded', () => {
   const algoliaSettings = CONFIG.algolia;
 
   let search = instantsearch({
-    appId         : algoliaSettings.appID,
+    appId         : algoliaSettings.appId,
     apiKey        : algoliaSettings.apiKey,
     indexName     : algoliaSettings.indexName,
     searchFunction: helper => {
