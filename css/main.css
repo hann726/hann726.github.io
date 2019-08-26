@@ -1070,9 +1070,9 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
 }
 .reading-progress-bar {
-  background: #37c6c0;
+  background: #fc64230;
   display: block;
-  height: 3px;
+  height: 5px;
   left: 0;
   position: fixed;
   top: 0;
@@ -1741,7 +1741,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #e4ff34;
+  background: #75ff90;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2086,7 +2086,7 @@ pre .javascript .function {
 }
 .search-popup .search-icon,
 .search-popup .popup-btn-close {
-  color: #999;
+  color: #f0ad4e;
   display: inline-block;
   font-size: 18px;
   height: 36px;
@@ -2120,8 +2120,8 @@ pre .javascript .function {
   font-weight: bold;
 }
 .search-popup .search-keyword {
-  border-bottom: 1px dashed #f00;
-  color: #f00;
+  border-bottom: 2px dashed #f0ad4e;
+  color: #f0ad4e;
   font-weight: bold;
 }
 .search-popup #search-result {
