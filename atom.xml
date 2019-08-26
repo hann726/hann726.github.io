@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hann726.github.io/"/>
-  <updated>2019-08-25T13:01:59.535Z</updated>
+  <updated>2019-08-26T14:52:38.964Z</updated>
   <id>https://hann726.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>code_test</title>
+    <link href="https://hann726.github.io/2019/08/26/code-test/"/>
+    <id>https://hann726.github.io/2019/08/26/code-test/</id>
+    <published>2019-08-26T14:50:59.000Z</published>
+    <updated>2019-08-26T14:52:38.964Z</updated>
+    
+    <content type="html"><![CDATA[<pre class="highlight"><code class>package jump2java;public class HelloWorld {public static void main(String args[]) {System.out.println(&quot;Hello World&quot;);}}&quot;</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;pre class=&quot;highlight&quot;&gt;&lt;code class&gt;package jump2java;
+
+public class HelloWorld {
+public static void main(String args[]) {
+System.out.println
+      
+    
+    </summary>
+    
+      <category term="test" scheme="https://hann726.github.io/categories/test/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>이상해씨</title>

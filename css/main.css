@@ -511,9 +511,9 @@ pre code {
   padding: 0;
 }
 .highlight figcaption {
-  background: #eee;
-  border-bottom: 1px solid #e9e9e9;
-  color: #ccc;
+  background: #20252a;
+  border-bottom: 1px solid #20252a;
+  color: #eee;
   line-height: 1em;
   margin: 0;
   padding: 0.5em;
@@ -534,14 +534,14 @@ pre code {
   border-bottom-color: #ccc;
 }
 .highlight .gutter pre {
-  background-color: #1b1b1b;
-  color: #999;
+  background-color: #202529;
+  color: #eee;
   padding-left: 10px;
   padding-right: 10px;
   text-align: right;
 }
 .highlight .code pre {
-  background-color: #2d2d2d;
+  background-color: #202529;
   padding-left: 10px;
   width: 100%;
 }
@@ -1070,9 +1070,9 @@ pre .javascript .function {
   transition-timing-function: ease-in-out;
 }
 .reading-progress-bar {
-  background: #fc64230;
+  background: #f77842;
   display: block;
-  height: 5px;
+  height: 4.5px;
   left: 0;
   position: fixed;
   top: 0;
@@ -1741,7 +1741,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #75ff90;
+  background: #d5907e;
   border-radius: 50%;
   content: ' ';
   display: inline-block;

@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>code_test</title>
+      <link href="/2019/08/26/code-test/"/>
+      <url>/2019/08/26/code-test/</url>
+      
+        <content type="html"><![CDATA[<pre class="highlight"><code class>package jump2java;public class HelloWorld {public static void main(String args[]) {System.out.println(&quot;Hello World&quot;);}}&quot;</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>이상해씨</title>
       <link href="/2019/08/25/%EC%9D%B4%EA%B1%B0-%EC%99%9C-%EC%95%88%EB%8F%BC/"/>
       <url>/2019/08/25/%EC%9D%B4%EA%B1%B0-%EC%99%9C-%EC%95%88%EB%8F%BC/</url>
