@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hann726.github.io/"/>
-  <updated>2019-08-26T14:52:38.964Z</updated>
+  <updated>2019-08-26T15:40:37.969Z</updated>
   <id>https://hann726.github.io/</id>
   
   <author>
@@ -21,19 +21,15 @@
     <link href="https://hann726.github.io/2019/08/26/code-test/"/>
     <id>https://hann726.github.io/2019/08/26/code-test/</id>
     <published>2019-08-26T14:50:59.000Z</published>
-    <updated>2019-08-26T14:52:38.964Z</updated>
+    <updated>2019-08-26T15:40:37.969Z</updated>
     
-    <content type="html"><![CDATA[<pre class="highlight"><code class>package jump2java;public class HelloWorld {public static void main(String args[]) {System.out.println(&quot;Hello World&quot;);}}&quot;</code></pre>]]></content>
+    <content type="html"><![CDATA[<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">#테스트 중중임중임무황무황태황태황무임중</span><br><span class="line">local_search :</span><br><span class="line">   enable: true</span><br><span class="line">class Person</span><br><span class="line">include ActiveModel::Conversion</span><br><span class="line">include ActiveModel::Validations</span><br><span class="line"></span><br><span class="line">validates_presence_of :name</span><br><span class="line">attr_accessor :name</span><br><span class="line"></span><br><span class="line">def initialize(attributes = &#123;&#125;)</span><br><span class="line">@name = arrtibutes[:name]</span><br><span class="line">end</span><br></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;pre class=&quot;highlight&quot;&gt;&lt;code class&gt;package jump2java;
-
-public class HelloWorld {
-public static void main(String args[]) {
-System.out.println
+        &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class
       
     
     </summary>
