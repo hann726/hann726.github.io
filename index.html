@@ -254,7 +254,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
             
-            <a href="/2019/08/31/Markdown-Task-list-Plugin-설치하기/" class="post-title-link" itemprop="url">Markdown Task-list Plugin 설치하기</a>
+            <a href="/2019/08/31/Markdown-Task-list-Plugin-설치하기/" class="post-title-link" itemprop="url">Markdown Task-list(체크리스트) Plugin 설치하기</a>
           
         </h2>
 
@@ -269,7 +269,7 @@
                 
               
 
-              <time title="Post created: 2019-08-31 11:09:19 / Updated at: 12:44:00" itemprop="dateCreated datePublished" datetime="2019-08-31T11:09:19+09:00">2019-08-31</time>
+              <time title="Post created: 2019-08-31 11:09:19 / Updated at: 13:04:16" itemprop="dateCreated datePublished" datetime="2019-08-31T11:09:19+09:00">2019-08-31</time>
             </span>
           
             
@@ -340,14 +340,27 @@
 <h3 id="설정-2"><a class="markdownIt-Anchor" href="#설정-2"></a> 설정</h3>
 <p>hexo의 <code>_config.yml</code> 파일 Markdown-it-plus 부분에 plugin을 추가한다.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">markdown_it_plus:</span><br><span class="line">    highlight: true</span><br><span class="line">    html: true</span><br><span class="line">    xhtmlOut: true</span><br><span class="line">    breaks: true</span><br><span class="line">    langPrefix:</span><br><span class="line">    linkify: true</span><br><span class="line">    typographer:</span><br><span class="line">    quotes: “”‘’</span><br><span class="line">    pre_class: highlight</span><br><span class="line">    plugins:</span><br><span class="line">       - plugin:</span><br><span class="line">       name: markdown-it-task-lists</span><br><span class="line">       enable: true</span><br><span class="line">       options:</span><br><span class="line">       # this is plugin option</span><br></pre></td></tr></table></figure>
+<br>
 <p>모든 설정 후 체크리스트를 만들어보자.</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">- [x] ~~markdown-it-plus~~</span><br><span class="line">- [x] ~~markdown-it-task-lists~~</span><br><span class="line">- [ ] markdown posting</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">- [x] ~~markdown-it-plus~~</span><br><span class="line">- [x] ~~markdown-it-task-lists~~</span><br><span class="line">- [ ] markdown posting</span><br><span class="line"></span><br><span class="line">1. [x] AA</span><br><span class="line">2. [ ] BB</span><br><span class="line">3. [ ] CC</span><br><span class="line">    1. [x] **DD**</span><br><span class="line">    1. [ ] FF</span><br></pre></td></tr></table></figure>
 <ul class="contains-task-list">
 <li class="task-list-item"><input class="task-list-item-checkbox" checked disabled type="checkbox"> <s>markdown-it-plus</s></li>
 <li class="task-list-item"><input class="task-list-item-checkbox" checked disabled type="checkbox"> <s>markdown-it-task-lists</s></li>
 <li class="task-list-item"><input class="task-list-item-checkbox" disabled type="checkbox"> markdown posting</li>
 </ul>
-<p>앞의 동그라미를 없애는 법</p>
+<ol class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked disabled type="checkbox"> AA</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled type="checkbox"> BB</li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled type="checkbox"> CC
+<ol class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" checked disabled type="checkbox"> <strong>DD</strong></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled type="checkbox"> FF</li>
+</ol>
+</li>
+</ol>
+<div class="note info">
+            <p>Task list는 텍스트 서식 적용이 가능하다.</p>
+          </div>
 
         
       
