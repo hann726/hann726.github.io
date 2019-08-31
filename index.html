@@ -269,7 +269,7 @@
                 
               
 
-              <time title="Post created: 2019-08-31 11:09:19 / Updated at: 13:04:16" itemprop="dateCreated datePublished" datetime="2019-08-31T11:09:19+09:00">2019-08-31</time>
+              <time title="Post created: 2019-08-31 11:09:19 / Updated at: 13:15:38" itemprop="dateCreated datePublished" datetime="2019-08-31T11:09:19+09:00">2019-08-31</time>
             </span>
           
             
@@ -326,22 +326,22 @@
 저는 blog 폴더에 설치했습니다.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cd blog (hexo 설치 폴더로 이동)</span><br><span class="line">npm un hexo-renderer-markde --save  (기존의 markdown 삭제)</span><br><span class="line">npm i hexo-renderer-mardkdown-it-plus --save  (Markdown-it-plus 설치)</span><br></pre></td></tr></table></figure>
 <h3 id="설정"><a class="markdownIt-Anchor" href="#설정"></a> 설정</h3>
-<p>hexo의   <code>_config.yml</code> 맨 밑에 다음과 같이 설정을 붙여 넣는다.</p>
+<p>hexo의   <code>_config.yml</code> 맨 밑에 다음과 같이 설정을 붙여 넣습니다.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">markdown_it_plus:</span><br><span class="line">    highlight: true</span><br><span class="line">    html: true</span><br><span class="line">    xhtmlOut: true</span><br><span class="line">    breaks: true</span><br><span class="line">    langPrefix:</span><br><span class="line">    linkify: true</span><br><span class="line">    typographer:</span><br><span class="line">    quotes: “”‘’</span><br><span class="line">    pre_class: highlight</span><br></pre></td></tr></table></figure>
-<p>여기까지가 Markdown-it-plus 설치, 적용 방법이다.<br>
-그러면 이제 본격적으로 Task-list를 향해 달려보자.</p>
+<p>여기까지가 Markdown-it-plus 설치, 적용 방법입니다.<br>
+그러면 이제 본격적으로 Task-list를 향해 달려봅시다!</p>
 <br>
 <br>
 <h2 id="markdown-it-task-lists"><a class="markdownIt-Anchor" href="#markdown-it-task-lists"></a> Markdown-it-task-lists</h2>
-<p><a href="https://hann726.github.io/2019/08/31/markdown-%EB%AC%B8%EB%B2%95%EC%9D%84-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/#%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8check-lists">Task-list</a>는 이전 포스팅에서 적용된 모습을 볼 수 있다.</p>
+<p><a href="https://hann726.github.io/2019/08/31/markdown-%EB%AC%B8%EB%B2%95%EC%9D%84-%EC%95%8C%EC%95%84%EB%B3%B4%EC%9E%90/#%EC%B2%B4%ED%81%AC%EB%A6%AC%EC%8A%A4%ED%8A%B8check-lists">Task-list</a>는 이전 포스팅에서 적용된 모습을 볼 수 있습니다.</p>
 <h3 id="설치-2"><a class="markdownIt-Anchor" href="#설치-2"></a> 설치</h3>
-<p>hexo가 설치 되어 있는 폴더에서 명령어를 입력한다.</p>
+<p>hexo가 설치 되어 있는 폴더에서 명령어를 입력합니다.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install markdown-it-task-lists</span><br></pre></td></tr></table></figure>
 <h3 id="설정-2"><a class="markdownIt-Anchor" href="#설정-2"></a> 설정</h3>
-<p>hexo의 <code>_config.yml</code> 파일 Markdown-it-plus 부분에 plugin을 추가한다.</p>
+<p>hexo의 <code>_config.yml</code> 파일 Markdown-it-plus 부분에 plugin을 추가합니다.</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">markdown_it_plus:</span><br><span class="line">    highlight: true</span><br><span class="line">    html: true</span><br><span class="line">    xhtmlOut: true</span><br><span class="line">    breaks: true</span><br><span class="line">    langPrefix:</span><br><span class="line">    linkify: true</span><br><span class="line">    typographer:</span><br><span class="line">    quotes: “”‘’</span><br><span class="line">    pre_class: highlight</span><br><span class="line">    plugins:</span><br><span class="line">       - plugin:</span><br><span class="line">       name: markdown-it-task-lists</span><br><span class="line">       enable: true</span><br><span class="line">       options:</span><br><span class="line">       # this is plugin option</span><br></pre></td></tr></table></figure>
 <br>
-<p>모든 설정 후 체크리스트를 만들어보자.</p>
+<p>모든 설정 후 체크리스트를 만들어봅시다!</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">- [x] ~~markdown-it-plus~~</span><br><span class="line">- [x] ~~markdown-it-task-lists~~</span><br><span class="line">- [ ] markdown posting</span><br><span class="line"></span><br><span class="line">1. [x] AA</span><br><span class="line">2. [ ] BB</span><br><span class="line">3. [ ] CC</span><br><span class="line">    1. [x] **DD**</span><br><span class="line">    1. [ ] FF</span><br></pre></td></tr></table></figure>
 <ul class="contains-task-list">
 <li class="task-list-item"><input class="task-list-item-checkbox" checked disabled type="checkbox"> <s>markdown-it-plus</s></li>
@@ -359,7 +359,7 @@
 </li>
 </ol>
 <div class="note info">
-            <p>Task list는 텍스트 서식 적용이 가능하다.</p>
+            <p>Task list는 텍스트 서식 적용이 가능합니다.</p>
           </div>
 
         
@@ -416,7 +416,7 @@
                 
               
 
-              <time title="Post created: 2019-08-31 10:55:07 / Updated at: 12:33:19" itemprop="dateCreated datePublished" datetime="2019-08-31T10:55:07+09:00">2019-08-31</time>
+              <time title="Post created: 2019-08-31 10:55:07 / Updated at: 13:28:44" itemprop="dateCreated datePublished" datetime="2019-08-31T10:55:07+09:00">2019-08-31</time>
             </span>
           
             
@@ -599,6 +599,8 @@ Markdown에는 이미지 크기를 조절하는 구문이 없기 때문에, 이�
 <img src="http://d1841mjet2hm8m.cloudfront.net/thumb-900/fr_1185/1720/3/0ff25f027e569329068cc5ba6ff97c8c.jpg"><br>
 <img width="500" src="http://d1841mjet2hm8m.cloudfront.net/thumb-900/fr_1185/1720/3/0ff25f027e569329068cc5ba6ff97c8c.jpg"></li>
 </ul>
+<br>
+<h2 id="유튜브"><a class="markdownIt-Anchor" href="#유튜브"></a> 유튜브</h2>
 <br>
 <h2 id="수평선horizontal-rules"><a class="markdownIt-Anchor" href="#수평선horizontal-rules"></a> 수평선(Horizontal Rules)</h2>
 <p>본문에서 구역을 나누고 싶다면 <code>벌표(*)</code>, <code>하이픈(-)</code>, <code>밑줄(_)</code> 중 하나를  3개 이상 입력하세요.</p>
